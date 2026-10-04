@@ -9,5 +9,5 @@ def dfs(adj):
     res = []
     dfsRec(adj,visited,0,res)
     return res 
-adj = [[1,2],[0,2],[0,3,4],[2],[2]]
+adj = [[2,3],[1,4],[1,4,5],[2,3],[3,6],[5]]
 print(dfs(adj))
